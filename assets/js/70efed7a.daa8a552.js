@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksir_docs=self.webpackChunksir_docs||[]).push([[733],{9423:function(s){s.exports=JSON.parse('{"allTagsPath":"/SIR-docs/blog/tags","slug":"/SIR-docs/blog/tags/hola","name":"hola","count":1,"permalink":"/SIR-docs/blog/tags/hola"}')}}]);
