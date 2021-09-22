@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksir_docs=self.webpackChunksir_docs||[]).push([[620],{840:function(e){e.exports=JSON.parse('{"permalink":"/SIR-trading/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
