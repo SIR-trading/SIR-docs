@@ -6,12 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'SIR docs',
   tagline: 'Documentation for Synthetics Implemented Right',
-  url: 'https://Synthetics-Implemented-Right-github.io/docs',
+  //url: 'https://sir-trading.github.io/',
+  //baseUrl: '/SIR-docs/',
+  url: 'https://sir.trading',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'SIR', // Usually your GitHub org/user name.
+  organizationName: 'SIR-trading', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   trailingSlash: false,
 
@@ -22,7 +24,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Synthetics-Implemented-Right/docs'
+          editUrl: 'https://github.com/SIR-trading/SIR-docs'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -49,7 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SIR-trading',
             label: 'GitHub',
             position: 'right',
           },
@@ -71,16 +73,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/3YnhkBjDfA',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/SIRdotTrading',
+              },
+              {
+                label: 'E-mail',
+                href: 'mailto:support@sir.trading',
               },
             ],
           },
@@ -93,7 +95,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/SIR-trading/SIR-docs',
               },
             ],
           },
