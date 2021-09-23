@@ -6,10 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'SIR docs',
   tagline: 'Documentation for Synthetics Implemented Right',
-  //url: 'https://sir-trading.github.io/',
-  //baseUrl: '/SIR-docs/',
-  url: 'https://sir.trading',
-  baseUrl: '/',
+  url: 'https://sir-trading.github.io/',
+  baseUrl: '/SIR-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
