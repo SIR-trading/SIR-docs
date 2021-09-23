@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksir_docs=self.webpackChunksir_docs||[]).push([[481],{4356:function(s){s.exports=JSON.parse('{"allTagsPath":"/SIR-docs/blog/tags","slug":"/SIR-docs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/SIR-docs/blog/tags/facebook"}')}}]);
