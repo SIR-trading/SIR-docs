@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+# What is SIR
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Synthetics Implemented Right (SIR) is a new protocol in the block offering two types of synthetic tokens.
 
 ## Getting Started
 

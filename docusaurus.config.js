@@ -20,13 +20,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/SIR-trading/SIR-docs'
-        },
+        docs: false,
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   editUrl: 'https://github.com/SIR-trading/SIR-docs'
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false,
+        sitemap: false,
       }),
     ],
   ],
@@ -38,16 +41,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'SIR docs',
         logo: {
           alt: 'SIR docs',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/SIR-trading',
             label: 'GitHub',
@@ -58,15 +55,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
@@ -89,7 +77,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://medium.com/@xatarra/sir-pleased-to-meet-you-32b92f0e6fc7',
               },
               {
                 label: 'GitHub',
@@ -98,7 +86,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SIR.trading, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
