@@ -77,7 +77,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Whitepaper',
-                to: 'http://sir.trading/whitepaper.pdf',
+                to: 'https://sir-trading.github.io/SIR-docs/whitepaper.pdf',
                 position: "right",
                 className: "persistent",
               },
