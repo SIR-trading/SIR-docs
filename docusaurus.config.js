@@ -76,12 +76,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
+                label: 'Whitepaper',
+                to: 'https://sir.trading/whitepaper.pdf',
+              },
+              {
                 label: 'Blog',
                 to: 'https://medium.com/@xatarra/sir-pleased-to-meet-you-32b92f0e6fc7',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/SIR-trading/SIR-docs',
+                href: 'https://github.com/SIR-trading/',
               },
             ],
           },
