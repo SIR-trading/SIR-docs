@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksir_docs=self.webpackChunksir_docs||[]).push([[96],{6715:function(s){s.exports=JSON.parse('{"allTagsPath":"/SIR-docs/blog/tags","slug":"/SIR-docs/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/SIR-docs/blog/tags/docusaurus"}')}}]);
