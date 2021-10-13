@@ -17,10 +17,10 @@ SIR is built as a layer on top of Uniswap v3 that unlocks the possibility of tok
 
 ## The Hidden Risks of Leveraged Trading
 
-Demand for leveraged trading continues to rise](https://finance.yahoo.com/news/ethereum-based-leverage-trading-protocol-162512422.html) in crypto.
+[Demand for leveraged trading](https://finance.yahoo.com/news/ethereum-based-leverage-trading-protocol-162512422.html) continues to rise in crypto.
 Margin trading platforms lure new traders with the promise of higher potential gains, however, it also comes with extra risk. If price moves against the trader they **risk liquidiation**, i.e., complete loss of their capital (margin). The higher the leverage, the higher the risk. In fact it is estimated that [95% of the traders lose money](https://cointelegraph.com/news/day-trading-bitcoin-why-95-of-traders-lose-money-and-fail). Contrary to spot trading, margin traders are charged funding fees for the borrowed capital based on the funding rate which slowly erodes their capital.
 
-A similar type of financial product are leveraged ETFs. In a nutshell, leverage ETFs in crypto are tokens which track the price of other tokens with a constantly rebalanced leverage, usually daily. E.g., on a 2x leveraged ETF tracking ETH/USD, if the price increases 5% in a day, then the holder of the ETF would expect a 10% gain. In addition to the liquidation risk, leveraged ETFs suffer from [volatility decay](https://www.coingecko.com/buzz/part-1-introduction-to-crypto-leveraged-etf). These risks are mitigated by SIR in novel ways as described next.
+A similar type of financial product are leveraged ETFs. In a nutshell, leverage ETFs in crypto are tokens which track the price of other tokens with a constantly rebalanced leverage, usually daily. E.g., on a 2x leveraged ETF tracking ETH/USD, if the price increases 5% in a day, then the holder of the ETF would expect a 10% gain. In addition to the liquidation risk, leveraged ETFs suffer from [**volatility decay**](https://www.coingecko.com/buzz/part-1-introduction-to-crypto-leveraged-etf). These risks are mitigated by SIR in novel ways as described next.
 
 
 ## Long-Term *Hodling*
@@ -31,7 +31,7 @@ To allow users to hold leveraged ETFs over the long-run, SIR is built from first
 
 SIR delegates the task of rebalancing to liquidity providers who do it on a block-by-block basis in exchange for fees. In the best case scenario, albeit probably too optimistic, where the leverage (`l`) remains constant, the leverage ETF’s price (`q`) becomes path-independent: `q=p^l`, where `p` is the price of the underlying asset, and `l` is the leverage ratio. By making the price of the leverage ETF depend only on the price of the underlying asset (no volatility decay), the volatility decay and the liquidation risk are mitigated.
 
-Lastly, SIR only charges fees when getting in or out of a position. Therefore, the users' capital is not slowly drained through fees even when they maintain the leveraged position.
+Lastly, SIR only charges fees when entering or exiting a position. Therefore, the users' capital is not slowly drained through fees even when they maintain the leveraged position.
 
 ## Leveraged Tokens
 
