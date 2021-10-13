@@ -10,7 +10,7 @@ In order to be **maximally trustless**:
 1. SIR's smart contracts are immutable (i.e., they cannot be modified by anone)
 2. counterparty risk is minimized by only interacting with the Uniswap v3 protocol.
 
-SIR is built as a layer on top of Uniswap v3 that unlocks the possibility of tokenized leveraged trading and the permissionless creation of all types of stable tokens.
+SIR is built as a layer on top of Uniswap v3, and unlocks the possibility of tokenized leveraged trading and the permissionless creation of all types of stable tokens.
 
 
 # Why SIR?
@@ -33,21 +33,22 @@ SIR delegates the task of rebalancing to liquidity providers who do it on a bloc
 
 Lastly, SIR only charges fees when entering or exiting a position. Therefore, the users' capital is not slowly drained through fees even when they maintain the leveraged position.
 
-## Leveraged Tokens
+## Tokenized Leveraged
 
-## Creative Freedom
+The leveraged ETFs are tokenized with an ERC20 token with symbol APE. This is in fact a rebasing ERC20 token (like Ample from Ampleforth) which is pegged to the underlying asset. For instance, if the underlying is ETH, as the price of ETH increases, so does the balance of APE. With a simple glimpse to his balance a user knows how much he has gain/lost compared to holding spot ETH.
+Thus, the leveraged ETF can be transfered and traded in secondary markets, or used as collateral in other platforms. The possibilities of tokenized leveraged are endless.
 
+## Trustless Stable Tokens
 
+Stablecoins are tokens pegged to some form of fiat, usually the US dollar. More generally, stable tokens are tokens that are pegged 1-to-1 to other tokens/currencies. The main advantage of stable tokens is that they allow holders to gain price exposure to other assets without some of their pitfalls. As an example a token pegged to USDC allows its holders to keep a stable cryptocurrency without the potential risk of getting their coins frozen by Circle.
 
+Unfortunately, there do not exist many stable tokens that are really trustless. For instance, DAI is the leader of “decentralized stablecoins”, and yet it is 37% backed by USDC at the time of this post. Sometimes it is the quality of the collateral, or the governance, or it is just not very stable. In addition, all of these stable tokens are manually crafted one by one in a permissioned way. SIR changes this by providing a protocol where anyone can spin a stable token pegged to any digital asset and backed by some collateral of choice with some user-defined collateralization ratio. All of SIR’s stable tokens share the symbol TEA.
 
 
 ## Yield Farming
 
+The 90% of the fees collected by SIR go to users providing liquidity. Thus, SIR will offer new streams for yield, which in turns should help bootstrap its liquidity.
 
-## Trustless Stable Tokens
-
-We are aming to trustable stable tokens together with leverage trading to offer the best of both worlds; decentralized stable tokens with low risk, that will grow with fees, and leverage trading for maximum capital eficiency for a different kind of investment.
-SIR’s stable tokens share the symbol `TEA` and the leveraged ETFs share the symbol `APE`.
 
 
 
