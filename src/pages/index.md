@@ -1,6 +1,16 @@
-# What is SIR
+## What is SIR
 
-Synthetics Implemented Right (SIR) is a new protocol in the block offering two types of synthetic tokens.
+Synthetics Implemented Right (SIR) is a new DeFi protocol producing two types of synthetic tokens. One the one hand it allows for the permissionless creation of
+- leveraged ETFs for any pair of tokens that exist in Uniswap v3,
+
+and on the other hand it provides
+- synthetic tokens pegged 1-to-1 to other tokens and backed by any collateral of choice.
+
+In order to be maximally trustless:
+1. SIR's smart contracts are immutable (i.e., they cannot be modified by anone)
+2. counterparty risk is minimized by only interacting with the Uniswap v3 protocol.
+
+SIR is built as a layer on top of Uniswap v3 that unlocks the possibility of tokenized leveraged trading and the permissionless creation of all types of stable tokens.
 
 
 ## Why SIR?
