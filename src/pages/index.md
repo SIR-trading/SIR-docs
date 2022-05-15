@@ -33,7 +33,7 @@ SIR delegates the task of rebalancing to liquidity providers who do it on a bloc
 
 Lastly, SIR only charges fees when entering or exiting a position. Therefore, the users' capital is not slowly drained through fees even when they maintain the leveraged position.
 
-## Tokenized Leveraged
+## Tokenized Leverage
 
 The leveraged ETFs are tokenized with an ERC20 token with symbol APE. This is in fact a rebasing ERC20 token (like Ample from Ampleforth) which is pegged to the underlying asset. For instance, if the underlying is ETH, as the price of ETH increases, so does the balance of APE. With a simple glimpse to his balance a user knows how much he has gain/lost compared to holding spot ETH.
 Thus, the leveraged ETF can be transfered and traded in secondary markets, or used as collateral in other platforms. The possibilities of tokenized leveraged are endless.
@@ -42,7 +42,7 @@ Thus, the leveraged ETF can be transfered and traded in secondary markets, or us
 
 Stablecoins are tokens pegged to some form of fiat, usually the US dollar. More generally, stable tokens are tokens that are pegged 1-to-1 to other tokens/currencies. The main advantage of stable tokens is that they allow holders to gain price exposure to other assets without some of their pitfalls. As an example a token pegged to USDC allows its holders to keep a stable cryptocurrency without the potential risk of getting their coins frozen by Circle.
 
-Unfortunately, there do not exist many stable tokens that are really trustless. For instance, DAI is the leader of “decentralized stablecoins”, and yet it is 37% backed by USDC at the time of this post. Sometimes it is the quality of the collateral, or the governance, or it is just not very stable. In addition, all of these stable tokens are manually crafted one by one in a permissioned way. SIR changes this by providing a protocol where anyone can spin a stable token pegged to any digital asset and backed by some collateral of choice with some user-defined collateralization ratio. All of SIR’s stable tokens share the symbol TEA.
+Unfortunately, there do not exist many stable tokens that are really trustless. For instance, DAI is the leader of "decentralized stablecoins", and yet it is 37% backed by USDC at the time of this post. Sometimes it is the quality of the collateral, or the governance, or it is just not very stable. In addition, all of these stable tokens are manually crafted one by one in a permissioned way. SIR changes this by providing a protocol where anyone can spin a stable token pegged to any digital asset and backed by some collateral of choice with some user-defined collateralization ratio. All of SIR’s stable tokens share the symbol TEA.
 
 
 ## Yield Farming
