@@ -67,24 +67,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
                                     label: "Twitter",
                                     href: "https://twitter.com/SIRdotTrading",
                                 },
-                                {
-                                    label: "E-mail",
-                                    href: "mailto:support@sir.trading",
-                                },
                             ],
                         },
                         {
-                            title: "More",
+                            title: "Technical",
                             items: [
                                 {
                                     label: "Whitepaper",
                                     to: "https://sir.trading/whitepaper.pdf",
                                     position: "right",
                                     className: "persistent",
-                                },
-                                {
-                                    label: "Blog",
-                                    to: "https://medium.com/@xatarra/sir-pleased-to-meet-you-32b92f0e6fc7",
                                 },
                                 {
                                     label: "GitHub",
